@@ -53,7 +53,7 @@ export default function App() {
     {
       isLoading: true,
       isSignout: false,
-      userToken: true,
+      userToken: null,
     }
   );
   const authContext = useMemo(
